@@ -24,7 +24,7 @@ describe('Selecting Date using Calendar', () => {
         cy.wait('@DP_Page') // Implicit Waiting
     })
 
-    it('From Disabled Date Picker Calendar', () => {
+    it('From Disabled Date Calendar', () => {
         
         // To open Date Picker Calendar
         cy.get('div input#datepicker1').click()
